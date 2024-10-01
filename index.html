@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chargement...</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      margin: 0;
+      background: #f4f4f4; /* Juste pour ajouter un fond pour contraster le contenu */
+    }
+    .container {
+      max-width: 600px; /* Largeur maximale pour le contenu */
+      margin: auto; /* Centrage automatique */
+      padding: 0 20px; /* Ajoute un padding de 20px de chaque côté */
+      background: #fff; /* Fond blanc pour le contenu */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre portée légère pour le conteneur */
+      border-radius: 5px; /* Bordures arrondies pour le conteneur */
+    }
+    .message {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .thank-you {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="thank-you">Merci pour votre retour,</div>
+    <div class="message">Vous allez être redirigé vers notre page Google,</div>
+    <div class="message">N'hésitez pas à laisser un commentaire.</div>
+  </div>
+
+  <!-- Le script de redirection -->
+  <script>
+    setTimeout(function(){
+      window.location.href = 'https://g.page/r/CTdXxIk9jkpwEBM/review';
+    }, 3000); // Redirige après 3000 millisecondes (3 secondes)
+  </script>
+</body>
+</html>
